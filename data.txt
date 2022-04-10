@@ -1,0 +1,18 @@
+- 100 mil pessoas vivendo nas ruas
+- tem uma lei para acolher os moradores de rua
+- ONG: Aquece a alma e o coração
+- distribui sopas e pães
+- moradores no inverno e frio
+
+* Uma estação de comida: A Van da ONG chega no local de distribuição às 20:00, quando é feita a entrega de um papel com o horário de entrada na fila de atendimento. Essa quantidade deve ser gerada de maneira aleatória, não ultrapassando o máximo de 15 moradores. Por questão de acomodação no local, a fila pode conter apenas 15 moradores de rua por vez
+* Se tem um voluntario com mais o motorista, temos 2 estações: O próprio motorista da Van inicia a distribuição dos alimentos às 20h10 (1 estação de entrega), mas ele pode contar com a ajuda de mais um voluntário se necessário (2 estações de entrega).
+* Prato tempo de entrega: O tempo de servir a sopa em um recipiente e juntar o pão para a entrega é de X minutos (X=resto da divisão dos últimos 2 dígitos do seu RM por 3 somado a 1); X = 3
+* Para agilizar o processo de entrega, são preparados 3 pratos simultaneamente (pode ser menos apenas no momento em que a fila tiver menos do que 3 pessoas); se tiver 3 >= pessoas na fila, é preparado 3 pratos ao mesmo tempo, se tiver 2 é 2, se tiver 1 é 1
+* A cada 2 minutos, mais um morador de rua entra na fila;
+* Quando o morador de rua recebe o alimento é calculado o tempo de espera usando a informação do papel que o motorista entregou com o horário de entrada.
+* Para simular uma situação real como esta, é preciso que o programa desenvolvido tenha uma repetição onde cada 10 iterações represente o avanço de 1 minuto no relógio ou utilize uma função que contabilize esse tempo de maneira real
+* Conhecendo o tempo requerido para servir (X minutos) ou entrar na fila (2 minutos) o programa deve esperar o tempo correto para ocorrerem.
+* Supondo que a quantidade de alimentos é sempre maior do que a quantidade de moradores o programa deve ser encerrado apenas quando não houver mais nenhum morador na fila.
+* Use Python ou Java para desenvolver o desafio, recomendamos como ferramentas de desenvolvimento o PyCharm ou Eclipse, mas lembre-se de compartilhar o código rodando. Salve tudo em um arquivo .zip e submeta-o na seção de atividade do capítulo.
+* fila começa em zero
+* so motorista
