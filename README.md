@@ -1,2 +1,2 @@
-# agility-to-serve-homeless-people-fiap
+# Agility to serve homeless people FIAP
 Exercise for FIAP.
