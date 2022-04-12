@@ -25,3 +25,6 @@ def print_title(title):
 
 def print_item(message, value):
     print(f"* {message}: {value};")
+
+def print_message(message):
+    print(f"- {message}.")
