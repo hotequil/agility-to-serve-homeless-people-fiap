@@ -7,3 +7,11 @@ def calculate_time_to_serve(rm):
     minutes += 1
 
     return minutes
+
+def print_space():
+    print("")
+
+def print_bar():
+    print_space()
+    print("=========================================================================================================================================")
+    print_space()
