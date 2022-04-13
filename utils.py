@@ -28,3 +28,9 @@ def print_item(message, value):
 
 def print_message(message):
     print(f"- {message}.")
+
+def print_data(index, minutes_running, queue):
+    print_item("Voltas no looping", index)
+    print_item("Minutos rodando", minutes_running)
+    print_item("Número total de moradores de rua que ainda não foram servidos", queue.length())
+    print_item("Quantidade de filas (estações) totais", queue.queues_quantity())
