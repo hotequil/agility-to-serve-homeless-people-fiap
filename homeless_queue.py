@@ -35,8 +35,10 @@ class HomelessQueue:
 
         while index < turn_times:
             if self.has_length():
+                self.list.pop()
+
                 print_title("Remoção")
-                print_item("Foi servido o morador de rua que estava em uma fila com o código", self.list.pop())
+                print_item("Foi servido um morador de rua que estava em uma fila")
                 print_bar()
 
             index += 1

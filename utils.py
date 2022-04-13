@@ -23,8 +23,11 @@ def print_bar():
 def print_title(title):
     print(f"# {title}:")
 
-def print_item(message, value):
-    print(f"* {message}: {value};")
+def print_item(message, value = None):
+    if value is None:
+        print(f"* {message};")
+    else:
+        print(f"* {message}: {value};")
 
 def print_message(message):
     print(f"- {message}.")
