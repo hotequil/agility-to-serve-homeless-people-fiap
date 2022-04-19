@@ -57,7 +57,7 @@ class HomelessQueue:
                 self.remove(REMOVE_ONE_HOMELESS)
             elif is_last_queue and rest == REMOVE_TWO_HOMELESS:
                 self.remove(REMOVE_TWO_HOMELESS)
-            else:
+            elif not is_last_queue or (is_last_queue and rest >= REMOVE_THREE_OR_MORE_HOMELESS):
                 self.remove(REMOVE_THREE_OR_MORE_HOMELESS)
 
     def add(self, minutes_running, minutes_to_enter_someone, skip_validation = False):
